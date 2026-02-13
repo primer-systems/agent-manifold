@@ -1,6 +1,6 @@
 # The Agent Manifold
 
-**A desktop payment authorization oracle for AI agents.**
+**A desktop x402 payment manager for AI agents.**
 
 Delegate spending authority to agents without sharing private keys. Implements the full AP2 flow: intent, authorization, settlement, and receipt.
 
