@@ -76,5 +76,6 @@ python src/app.py
 ## Links
 
 - [Full Documentation](https://docs.primer.systems/agent-manifold.html)
-- [Intent Mandate Registry](https://ap2.primer.systems)
+- [AP2 Registry](https://ap2.primer.systems)
 - [Test Paywall Builder](https://www.primer.systems/test-paywall)
+- [Medium Article]([https://www.primer.systems/test-paywall](https://medium.com/@primersystems/the-x402-agent-manifold-d51e72ee029d))
