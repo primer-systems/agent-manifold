@@ -59,7 +59,7 @@ Intent Mandates document who authorized what - signed with your wallet key, publ
 
 ## Demo
 
-**Video:** (https://www.youtube.com/watch?v=51P_oOkBdQA)
+**Video:** https://www.youtube.com/watch?v=51P_oOkBdQA
 
 The demo shows the full payment flow from agent request to on-chain settlement, including a failure case where a payment limit is exceeded and the agent is forced to consider a new choice.
 
