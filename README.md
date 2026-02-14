@@ -2,7 +2,7 @@
 
 **A desktop x402 payment manager for AI agents.**
 
-Delegate spending authority to agents without sharing private keys. Implements the full AP2 flow: intent, authorization, settlement, and receipt.
+Delegate spending authority to agents without sharing private keys. Implements the full AP2 flow: intent, authorization, settlement, and receipt. Accepts direct A2A x402 as well as HTTP x402.
 
 ![Architecture](docs/manifold_wide.png)
 
@@ -55,6 +55,7 @@ Intent Mandates document who authorized what - signed with your wallet key, publ
 - **Wallet Security:** AES-256-GCM encryption, Argon2id key derivation (64MB, 3 iterations)
 - **Payment Signing:** EIP-712 structured data, EIP-3009 `transferWithAuthorization`
 - **Networks:** SKALE Base, SKALE Base Sepolia, Base, Base Sepolia
+- **Protocol Support:** HTTP x402 and A2A x402 (direct JSON payloads)
 - **Auth Modes:** Bearer tokens (simple) or HMAC-SHA256 (production)
 
 ## Demo
