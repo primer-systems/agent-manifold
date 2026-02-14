@@ -55,7 +55,7 @@ Intent Mandates document who authorized what - signed with your wallet key, publ
 - **Wallet Security:** AES-256-GCM encryption, Argon2id key derivation (64MB, 3 iterations)
 - **Payment Signing:** EIP-712 structured data, EIP-3009 `transferWithAuthorization`
 - **Networks:** SKALE Base, SKALE Base Sepolia, Base, Base Sepolia
-- **Protocol Support:** HTTP x402 and A2A x402 (direct JSON payloads)
+- **Protocol Support:** v1/v2 HTTP x402 and A2A x402 (direct JSON payloads)
 - **Auth Modes:** Bearer tokens (simple) or HMAC-SHA256 (production)
 
 ## Demo
