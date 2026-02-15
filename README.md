@@ -53,7 +53,7 @@ Any agent framework can integrate via HTTP to `localhost:9402` — Claude, GPT, 
 
 ## Intent Mandates & Merchant Verification
 
-Each agent can have a signed **Intent Mandate** — an AP2 Verifiable Data Container documenting:
+Each agent can have a signed **Intent Mandate** — an AP2 VDC documenting:
 - Agent identity (code + auth key fingerprint)
 - Spending limits (daily, per-request, auto-approve threshold)
 - Authorized networks
