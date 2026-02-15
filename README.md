@@ -61,6 +61,8 @@ Each agent can have a signed **Intent Mandate** — an AP2 Verifiable Data Conta
 
 Mandates are signed with EIP-191 and can be published to the [AP2 Registry](https://ap2.primer.systems). Merchants can query the registry by agent code to verify authorization before accepting payment — confirming the agent is backed by a real human with defined spending limits.
 
+![Internal Architecture](docs/manifold_close.png)
+
 ## Accountability & Receipts
 
 Every transaction is logged with agent, amount, domain, timestamp, and on-chain tx_hash. Settled payments are verified against the blockchain. AP2-formatted receipts are available via `/receipt/{id}`.
@@ -97,8 +99,6 @@ Every transaction is logged with agent, amount, domain, timestamp, and on-chain 
 When a policy violation occurs (limit exceeded, blocked domain, manual rejection), the agent receives a structured error response with a reason code. This allows the agent to understand *why* the payment was declined and adjust its behavior — choosing a cheaper option, trying a different merchant, or asking the user for guidance.
 
 The demo video shows this in action: an agent exceeds its daily limit and is forced to reconsider its approach.
-
-![Internal Architecture](docs/manifold_close.png)
 
 ![Screenshot](docs/manifoldss1.png)
 
