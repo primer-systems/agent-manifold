@@ -114,6 +114,9 @@ The demo video shows this in action: an agent exceeds its daily limit and is for
 
 **Video:** [Watch the demo →](https://www.youtube.com/watch?v=51P_oOkBdQA)
 
+<!-- BEGIN YOUTUBE-CARDS -->
+<!-- END YOUTUBE-CARDS -->
+
 The demo shows the full payment flow from agent request to on-chain settlement, including a failure case where a payment limit is exceeded and the agent is forced to consider a new choice.
 
 ## Download
