@@ -115,7 +115,7 @@ The demo video shows this in action: an agent exceeds its daily limit and is for
 **Video:** [Watch the demo →](https://www.youtube.com/watch?v=51P_oOkBdQA)
 
 <!-- BEGIN YOUTUBE-CARDS -->
-
+[![Primer x402 Agent Manifold](https://ytcards.demolab.com/?id=51P_oOkBdQA&title=Primer+x402+Agent+Manifold&lang=en&timestamp=1771020108&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5 "Primer x402 Agent Manifold")](https://www.youtube.com/watch?v=51P_oOkBdQA)
 <!-- END YOUTUBE-CARDS -->
 
 The demo shows the full payment flow from agent request to on-chain settlement, including a failure case where a payment limit is exceeded and the agent is forced to consider a new choice.
